@@ -1,0 +1,374 @@
+body{
+  /**font-family: 'Open Sans', sans-serif;**/
+  font-family: 'Poppins', sans-serif;
+}
+/****TOP BACKGROUND IMAGE****/
+.backgrounddesktop{
+  background-color: hsl(193, 100%, 96%);
+  display:block;
+}
+.backgroundmobile {display:none}
+
+@media all and (max-width: 600px) {
+    .backgrounddesktop {display: none;}
+    .backgroundmobile {display: block;}
+}
+/****NAVIGATION BAR*****/
+.navbar{
+  position:relative;
+  bottom:690px;
+}
+.huddlelogo{
+  margin-left: 10%;
+}
+.topbutton{
+  background-color: white;
+  border-radius: 50px;
+  padding:10px 40px 10px 40px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+.top-container-heading{
+  position:relative;
+  bottom:600px;
+  margin-top: 5%;
+  margin-left:3%;
+  width:35%;
+  line-height:1.5;
+}
+
+.top-container-para{
+  position: relative;
+  bottom:590px;
+  width:36%;
+  margin-left:3%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:500;
+  color: hsl(208, 11%, 55%);
+
+}
+.top-container-button{
+  background-color: hsl(322, 100%, 66%);
+  color:white;
+  border-radius:50px;
+  position:relative;
+  bottom:800px;
+  margin-left:3%;
+  margin-top:1%;
+  font-weight:lighter;
+  padding:15px 55px 15px 55px;
+}
+.topimage{
+  width:700px;
+  position:relative;
+  bottom:900px;
+  left:350px;
+}
+/******Middle container******/
+.middle-container{
+  margin-top:250px;
+}
+/****First Feature****/
+.growtogether{
+  width:30%;
+  margin-left:10%;
+}
+.para1{
+  font-family: 'Open Sans', sans-serif;
+  font-weight:500;
+  color: hsl(208, 11%, 55%);
+
+}
+.growtogetherimage{
+  width:400px;
+  float:right;
+  margin-right:20%;
+}
+/****FLOWING CONVERSATION****/
+.flowingconversation{
+  float:left;
+  width:400px;
+  margin-left: 12%;
+}
+.FlowingCon{
+  margin-top:30%;
+}
+.flow{
+  width:35%;
+  margin-left:50%
+}
+/****USER FEATURE****/
+.Userdiv{
+  margin-top:20%;
+}
+.yourusers{
+  width:400px;
+  float:right;
+  margin-right:15%;
+}
+.bottom-container-button{
+  background-color: hsl(322, 100%, 66%);
+  color:white;
+  border-radius:50px;
+  font-weight:lighter;
+  padding:15px 55px 15px 55px;
+  margin-left: 25%;
+  margin-top: 3%;
+
+}
+.bottomheading{
+  margin-left: 15%;
+}
+
+.bottom-container{
+  margin-top:30%;
+  width:40%;
+  margin-left:30%;
+  z-index:9;
+  position:absolute;
+  top:310%;
+  background-color: white;
+  padding-bottom:10%;
+  border-radius: 15px;
+  height:100px;
+
+}
+.footersection{
+  background-color: hsl(192, 100%, 9%);
+  padding:10% 5% 7% 5%;
+  width:1440px;
+  margin-top:400px;
+  color:hsl(193, 100%, 96%);
+  font-family: 'Open Sans', sans-serif;
+  font-weight:100;
+}
+
+.bottomlogo{
+  filter: brightness(0) invert(1);
+}
+
+.location{
+  margin-top:15%;
+  width:90%;
+  text-align: left;
+}
+.locationimage{
+  margin-right:11%;
+}
+.locationsecond{
+  margin-left: 14%;
+  display: block;
+}
+.phone{
+  margin-top: 10%;
+}
+.email{
+  margin-top: 10%;
+}
+.phoneimage{
+  margin-right: 10%;
+}
+.mailimage{
+  margin-right: 10%;
+}
+.feature1{
+  margin-top:30%;
+}
+.aboutus{
+  margin-left: 25%;
+  width:50%;
+}
+.feature2{
+  margin-top: 45%;
+}
+.aboutus2{
+  margin-left:0;
+  width:50%;
+}
+.socialicons{
+  filter: brightness(0) invert(1);
+  width:30px;
+  border-radius: 100%;
+  border-style: solid;
+  border-color: white;
+  border-width:1px;
+  padding:5px;
+  margin-left: 3%;
+  margin-top: 30%;
+}
+
+.copyright{
+  margin-top: 25px;
+
+}
+.CopyR{
+  margin-left:70%;
+}
+/********TABLET RESPONSIVE STATEMENTS*****/
+@media screen and (max-width: 1003px){
+  .backgrounddesktop{
+    width:700px;
+  }
+  .topbutton{
+    margin-right: 15%;
+  }
+  .top-container-button{
+    position:relative;
+    bottom:100%;
+
+  }
+  .navbar{
+    width:900px;
+  }
+  .topimage{
+    width:450px;
+    position: relative;
+    bottom:130%;
+    left:7%;
+  }
+  .navigationhuddle{
+    margin-left: 30px;
+  }
+  .huddlelogo{
+    width:200px;
+  }
+}
+/*****MOBILE RESPONSIVE STATEMENT***/
+@media all and (max-width:600px){
+  .backgroundmobile{
+    width:490px;
+    background-color:hsl(193, 100%, 96%);
+  }
+  .navbar{
+    position:relative;
+    bottom:820px;
+  }
+  .navigationhuddle{
+    width:550px;
+  }
+  .huddlelogo{
+    width:150px;
+  }
+  .topbutton{
+    width:140px;
+    padding:5px 15px 5px 15px;
+    margin-right:20%;
+  }
+  .top-container-heading{
+    text-align: center;
+    width:80%;
+    margin-left:10%;
+    position:relative;
+    bottom:750px;
+  }
+
+  .top-container-para{
+    text-align: center;
+    width:70%;
+    margin-left:12%;
+    position:relative;
+    bottom:720px;
+  }
+  .top-container-button{
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+    margin-top:250px;
+    position: relative;
+    bottom:950px;
+  }
+
+  .topimage{
+    width:400px;
+    margin-top:40px;
+    position:relative;
+    left:10%;
+    bottom:130%;
+  }
+  .growtogetherimage{
+    width:300px;
+    margin-bottom: 50px;
+  }
+  .growtogether{
+    width:70%;
+    text-align: center;
+    margin-top:2%;
+  }
+  .flowingconversation{
+    width:300px;
+    margin-bottom:50px;
+    margin-left: 18%;
+  }
+  .flow{
+    text-align: center;
+    width:65%;
+    margin-top:2%;
+    margin-left:15%;
+  }
+  .yourusers{
+    width:350px;
+    margin-bottom:50px;
+    margin-left:0;
+  }
+  .bottom-container{
+    width:90%;
+    margin-left:10px;
+    position:absolute;
+    top:440%;
+    padding-bottom:30%;
+  }
+  .bottomheading{
+    margin-left:9%;
+    text-align: center;
+
+  }
+  .bottom-container-button{
+    width: 80%;
+    margin-left:11%;
+  }
+  .footersection{
+    width:600px;
+  }
+  .bottomlogo{
+    margin-top:25%;
+  }
+  .location{
+    margin-top:3%;
+    width:80%;
+  }
+  .locationsecond{
+    display:block;
+  }
+  .phone{
+    margin-top:3%;
+  }
+  .phoneimage{
+    margin-right:7%;
+  }
+  .mailimage{
+    margin-right:7%;
+  }
+  .aboutus{
+    margin-top:2%;
+    margin-left:0;
+    width:30%;
+
+  }
+  .aboutus2{
+    margin-top:2%;
+    margin-left:0;
+    width:30%;
+
+  }
+  .facebook{
+    margin-left: 30%;
+  }
+  .socialicons{
+    margin-top:2%;
+    margin-left: 1%;
+  }
+  .CopyR{
+    margin-left: 1%;
+  }
+}
